@@ -1,0 +1,60 @@
+body{
+   background-color: black;
+   color: #fff;
+   text-align: center;
+}
+
+    
+*{
+    box-sizing: border-box;
+}
+    
+.clearfix:before,
+.clearfix:after {
+  content: " "; 
+  display: table; 
+}
+    
+.clearfix:after {
+  clear: both;
+ }
+
+.header{
+    background-image: url("../img/bg-curvy-mobile.svg") no repeat center fixed;
+    
+}
+
+.logo{
+    width: 40%;
+   
+    float: left;
+}
+
+.nav_bar{
+    margin-bottom: 2.5em;
+    
+}
+.nav_bar_item{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    padding: 1em;   
+    color: #fff;
+}
+.inner_container{
+    width: 90%;
+    max-width: 70em;
+    margin: 0 auto;
+}
+.intro_img{
+    display: block;
+    margin: 0 auto;
+}
+.intro_h1{
+    padding-top: 3em;
+}
+.intro_txt{
+    padding:0 5em;
+    
+}
