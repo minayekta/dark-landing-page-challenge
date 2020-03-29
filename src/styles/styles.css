@@ -1,5 +1,5 @@
 body{
-   background-color: black;
+   background-color:hsl(218, 28%, 13%);
    color: #fff;
    text-align: center;
 }
@@ -20,14 +20,20 @@ body{
  }
 
 .header{
-    background-image: url("../img/bg-curvy-mobile.svg") no repeat center fixed;
+    /* background-image: url("../img/bg-curvy-mobile.svg") no repeat center fixed; */
+   background-color: hsl(217, 28%, 15%);
     
 }
 
-.logo{
-    width: 40%;
-   
+.logo_image{
+    width: 30%;
+    margin-right: 20px;
     float: left;
+}
+.logo{
+    display: block;
+    padding-bottom: 3em;
+    padding-top: 4em;
 }
 
 .nav_bar{
@@ -37,9 +43,9 @@ body{
 .nav_bar_item{
     text-decoration: none;
     font-family: "Open Sans", sans-serif;
-    font-size: 25px;
     font-weight: normal;
-    padding: 1em;   
+    font-size: 10px;
+    padding: 0.2em;  
     color: #fff;
 }
 .inner_container{
@@ -48,13 +54,34 @@ body{
     margin: 0 auto;
 }
 .intro_img{
-    display: block;
     margin: 0 auto;
+    width: 95%;
+    padding-bottom: 3em;
+    padding-top: 1em;
+}
+
+.div_h{
+    background-image: url("../img/bg-curvy-mobile.svg") ;
+
 }
 .intro_h1{
-    padding-top: 3em;
+    /* padding-top: 3em; */
+    font-size: 2em;
 }
 .intro_txt{
-    padding:0 5em;
-    
+    padding:0 0.5em;
+    font-size: 1.2em;
 }
+
+.btn_header{
+    padding: 1em 4em;
+    border: none;
+    border-radius: 4em;
+    color: #fff;
+    background-color: rgb(88, 88, 252);
+}
+
+
+
+/* styles footer */
+
