@@ -85,3 +85,24 @@ body{
 
 /* styles footer */
 
+.logo_image_2{
+    width: 50%;
+    margin-right: 20px;
+    float: left;
+}
+
+
+.social__item{
+  
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    margin: 0 0.5rem;
+    color: #fff;
+    border: 0.1rem solid #fff;
+    padding: 1em;
+    border-radius: 100%;
+  }
+
+
+  
