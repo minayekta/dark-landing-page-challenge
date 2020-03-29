@@ -1,102 +1,59 @@
-# normalize.css
+# Frontend Mentor - Fylo landing page with dark theme and features grid
 
-<a href="https://github.com/necolas/normalize.css"><img
-  src="https://necolas.github.io/normalize.css/logo.svg" alt="Normalize Logo"
-  width="80" height="80" align="right"></a>
+![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)
 
-> A modern alternative to CSS resets
+## Welcome! 👋
 
-[![npm][npm-image]][npm-url] [![license][license-image]][license-url]
-[![changelog][changelog-image]][changelog-url]
-[![gitter][gitter-image]][gitter-url]
+Thanks for checking out this front-end coding challenge.
 
+[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
-**NPM**
+**To do this challenge you need a basic understanding of HTML and CSS.**
 
-```sh
-npm install --save normalize.css
-```
+## Where to find everything
 
-**CDN**
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
 
-See https://yarnpkg.com/en/package/normalize.css
+The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
 
-**Download**
+If you would like the Sketch file in order to see sizes etc, it is available to download from the challenge page.
 
-See https://necolas.github.io/normalize.css/latest/normalize.css
+You will find all the required assets in the `/images` folder. The assets are already optimized.
 
+There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
-## What does it do?
+## Building your project
 
-* Preserves useful defaults, unlike many CSS resets.
-* Normalizes styles for a wide range of elements.
-* Corrects bugs and common browser inconsistencies.
-* Improves usability with subtle modifications.
-* Explains what code does using detailed comments.
+Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
 
+1. Initialize your project as a public repository on [GitHub](https://github.com/). This will make it easier to share your code with the community if you need some help. If you're not sure how to do this, [have a read through of this Try Git resource](https://try.github.io/).
+2. Configure your repository to publish your code to a URL. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, but we recommend using [ZEIT Now](http://bit.ly/fem-zeit). We've got more information about deploying your project with ZEIT below.
+3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes that you could create to make reusable styles.
+4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
+5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
+6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+7. If you'd like to try making your project fully responsive, we'd recommend checking out [Sizzy](http://bit.ly/fem-sizzy). It's a great browser that makes it easy to view your site across multiple devices.
 
-## Browser support
+## Deploying your project
 
-* Chrome
-* Edge
-* Firefox ESR+
-* Internet Explorer 10+
-* Safari 8+
-* Opera
+As mentioned above, there are a number of ways to host your project for free. We recommend using [ZEIT Now](http://bit.ly/fem-zeit) as it's an amazing service and extremely simple to get set up with. If you'd like to use ZEIT, here are some steps to follow to get started:
 
+1. [Sign up to ZEIT Now](http://bit.ly/fem-zeit-signup) and go through the onboarding flow, ensuring your GitHub account is connected by using their [ZEIT Now for GitHub](https://zeit.co/docs/v2/git-integrations/zeit-now-for-github) integration.
+2. Connect your project to ZEIT Now from the ["Create a new project" page](https://zeit.co/new), using the "New Project From GitHub" button and selecting the project you want to deploy.
+3. Once connected, every time you `git push`, ZEIT Now will create a new [deployment](https://zeit.co/docs/v2/platform/deployments) and the deployment URL will be shown on your [ZEIT Dashboard](https://zeit.co/dashboard). You will also receive an email for each deployment with the URL.
 
-## Extended details and known issues
+## Sharing your solution
 
-Additional detail and explanation of the esoteric parts of normalize.css.
+There are multiple places you can share your solution:
 
-#### `pre, code, kbd, samp`
+1. Submit it on the platform so that other users will see your solution on the site. Other users will be able to give you feedback, which could help improve your code for the next project.
+2. Share your repository and live URL in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack).
+3. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor** including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
 
-The `font-family: monospace, monospace` hack fixes the inheritance and scaling
-of font-size for preformatted text. The duplication of `monospace` is
-intentional. [Source](https://en.wikipedia.org/wiki/User:Davidgothberg/Test59).
+## Giving feedback
 
-#### `sub, sup`
+Feedback is always welcome, so if you have any to give on this challenge please email hi[at]frontendmentor[dot]io.
 
-Normally, using `sub` or `sup` affects the line-box height of text in all
-browsers. [Source](https://gist.github.com/413930).
+This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
-#### `select`
-
-By default, Chrome on OS X and Safari on OS X allow very limited styling of
-`select`, unless a border property is set. The default font weight on `optgroup`
-elements cannot safely be changed in Chrome on OSX and Safari on OS X.
-
-#### `[type="checkbox"]`
-
-It is recommended that you do not style checkbox and radio inputs as Firefox's
-implementation does not respect box-sizing, padding, or width.
-
-#### `[type="number"]`
-
-Certain font size values applied to number inputs cause the cursor style of the
-decrement button to change from `default` to `text`.
-
-#### `[type="search"]`
-
-The search input is not fully stylable by default. In Chrome and Safari on
-OSX/iOS you can't control `font`, `padding`, `border`, or `background`. In
-Chrome and Safari on Windows you can't control `border` properly. It will apply
-`border-width` but will only show a border color (which cannot be controlled)
-for the outer 1px of that border. Applying `-webkit-appearance: textfield`
-addresses these issues without removing the benefits of search inputs (e.g.
-showing past searches).
-
-## Contributing
-
-Please read the [contribution guidelines](CONTRIBUTING.md) in order to make the
-contribution process easy and effective for everyone involved.
-
-
-[changelog-image]: https://img.shields.io/badge/changelog-md-blue.svg?style=flat-square
-[changelog-url]: CHANGELOG.md
-[license-image]: https://img.shields.io/npm/l/normalize.css.svg?style=flat-square
-[license-url]: LICENSE.md
-[npm-image]: https://img.shields.io/npm/v/normalize.css.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/normalize.css
-[gitter-image]: https://img.shields.io/badge/chat-gitter-blue.svg?style=flat-square
-[gitter-url]: https://gitter.im/necolas/normalize.css
+**Have fun building!** 🚀
